@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/root"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/empty"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+
+                    android:src="@drawable/cloud_sad"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/dimen150"
+                    android:layout_height="@dimen/dimen150" />
+                <TextView
+                    android:textColor="#CECECE"
+                    android:textSize="@dimen/dimen18"
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:text="@string/no_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

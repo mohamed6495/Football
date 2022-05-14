@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Football League</string>
+    <string name="no_content">Please try Again</string>
+    <string name="Ok">Ok</string>
+    <string name="plan">Plan is </string>
+    <string name="code">Code is </string>
+    <string name="date">Date </string>
+    <string name="name">League Name : </string>
+    <string name="number">Number of Teams :  </string>
+    <string name="short_name">Short name </string>
+    <string name="not_started">Not start </string>
+    <string name="team_color">Team Color : </string>
+    <string name="address">Address : </string>
+    <string name="phone">Phone : </string>
+    <string name="website">Website : </string>
+    <string name="email">Email : </string>
+
+</resources>
